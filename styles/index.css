@@ -1,7 +1,7 @@
 /* Settings */
 @import "../styles/settings/_typography.css";
 @import "../styles/settings/_layout.css";
-@import "../styles/settings/_colors.css";
+@import "../styles/settings/colors.css";
 @import "../styles/settings/_fonts.css";
 
 /* Global */
