@@ -1,0 +1,44 @@
+.navHeader {
+  width: fit-content;
+}
+
+.navHeader__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navHeader__item {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.navHeader__item:hover::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    var(--c-navHeader-left) 0%,
+    var(--c-navHeader-right) 100%
+  );
+  cursor: pointer;
+}
+
+.navHeader__item:hover {
+  cursor: pointer;
+}
+
+.navHeader__item:hover .navHeader__link {
+  color: var(--c-navHeader-text-hover);
+}
+
+.navHeader__link {
+  font-weight: var(--fw-navHeader);
+  font-size: var(--fs-medium);
+  letter-spacing: -1px;
+}

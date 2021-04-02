@@ -1,0 +1,11 @@
+@import "../settings/_colors.css";
+
+html,
+body {
+  /* height: 100%; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  background-color: var(--c-body);
+  position: relative;
+  cursor: default;
+}

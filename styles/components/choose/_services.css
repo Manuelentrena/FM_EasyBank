@@ -1,0 +1,13 @@
+.services__img {
+  width: 9rem;
+}
+
+.services__text {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 375px) {
+  .services__text {
+    font-size: 1.6rem;
+  }
+}

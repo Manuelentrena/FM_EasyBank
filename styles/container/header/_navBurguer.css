@@ -1,0 +1,45 @@
+.\#navBurguer {
+  position: absolute;
+  top: 7.4rem;
+  left: 0;
+  display: none;
+  height: calc(100vh - 7.4rem);
+  width: 100%;
+}
+
+.\#navBurguer ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5rem;
+  list-style: none;
+}
+
+.\#navBurguer ul li {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.\#navBurguer ul li p {
+  margin: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .\#navBurguer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .\#navBurguer {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .\#navBurguer {
+    display: block;
+  }
+}

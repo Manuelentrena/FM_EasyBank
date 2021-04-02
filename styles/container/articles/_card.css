@@ -1,0 +1,9 @@
+.\#card__body {
+  padding: 2rem 3.5rem 2rem 3.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .\#card__body {
+    padding: 3.5rem;
+  }
+}

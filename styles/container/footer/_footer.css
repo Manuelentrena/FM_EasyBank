@@ -1,0 +1,118 @@
+.\#footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.\#footer__block1 {
+  display: flex;
+}
+
+.\#footer__social {
+  display: flex;
+}
+
+.\#footer__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-right: 6vw;
+}
+
+.\#footer__social {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.\#footer__iconBlock {
+  margin-right: 2rem;
+  width: 100%;
+}
+.\#footer__icon {
+  width: 2.6rem;
+}
+
+.\#footer__menu {
+  width: 28vw;
+  display: block;
+}
+
+.\#footer__lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 0rem;
+  width: 100%;
+}
+
+.\#footer__block2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1440px) {
+  .\#footer__lista {
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  }
+  .\#footer__menu {
+    width: 30vw;
+  }
+  .\#footer__logo {
+    margin-right: 5vw;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .\#footer__lista {
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 0fr));
+  }
+
+  .\#footer__menu {
+    width: 25vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .\#footer {
+    flex-direction: column;
+  }
+  .\#footer__block1 {
+    flex-direction: column;
+  }
+  .\#footer__logo {
+    margin-right: 0;
+    align-items: center;
+  }
+  .\#footer__social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+  .\#footer__iconBlock {
+    margin: 0 1.5rem;
+    width: fit-content;
+  }
+  .\#footer__menu {
+    margin-top: 4rem;
+    text-align: center;
+    width: 100%;
+  }
+  .\#footer__lista {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+  .\#footer__block2 {
+    margin-top: 4rem;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .\#footer__iconBlock {
+    margin: 0 1rem;
+  }
+}

@@ -1,0 +1,11 @@
+.\#services__picture {
+  width: fit-content;
+  margin-bottom: 6rem;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .\#services__picture {
+    margin: 0rem auto;
+  }
+}

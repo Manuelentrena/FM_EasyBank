@@ -1,0 +1,40 @@
+.\#choose {
+  margin: 12rem 0rem;
+}
+
+.\#choose__header {
+  width: 60%;
+}
+
+.\#choose__body {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  gap: 6rem;
+  margin-top: 8rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .\#choose__header {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .\#choose {
+    margin: 8rem 0rem;
+  }
+  .\#choose__body {
+    text-align: center;
+    gap: 3rem;
+  }
+  .\#choose__header {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .\#choose__body {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  }
+}

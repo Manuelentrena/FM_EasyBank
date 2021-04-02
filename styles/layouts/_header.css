@@ -1,0 +1,22 @@
+.\[\]header {
+  position: fixed; /* TODO: */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 10rem;
+  background-color: var(--c-header-bg);
+  z-index: 2; /* TODO: */
+}
+
+@media screen and (max-width: 768px) {
+  .\[\]header {
+    min-height: 7.5rem;
+  }
+}
+
+/* @media screen and (max-width: 375px) {
+  .\[\]header {
+    
+  }
+} */

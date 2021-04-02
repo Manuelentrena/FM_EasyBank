@@ -1,0 +1,70 @@
+:root {
+  /* ESCALA */
+  --fs-base: 62.5%;
+
+  /* TAMAÑOS */
+
+  /* Desktop */
+  --fs-higher: 7.5rem;
+  --fs-semihigher: 5.2rem;
+  --fs-high: 3rem;
+  --fs-semihigh: 2.5rem;
+  --fs-verymedium: 2.2rem;
+  --fs-medium: 1.8rem;
+  --fs-small: 1.2rem;
+
+  /* SemiDesktop */ /* TODO: 1,25 ratio */
+  --fs-higher-sd: 6rem;
+  --fs-semihigher-sd: 4.16rem;
+  --fs-semihigh-sd: 2rem;
+
+  /* tablet */
+  --fs-higher-t: 4.8rem;
+  --fs-semihigher-t: 3.32rem;
+  --fs-semihigh-t: 1.6rem;
+
+  /* Mobil */
+  --fs-higher-m: 3.84rem;
+  --fs-semihigher-m: 2.66rem;
+  --fs-semihigh-m: 1.28rem;
+
+  /* PESOS */
+  --bold: 700;
+  --regular: 400;
+  --light: 300;
+
+  /* Altura de linea */
+  --line-height: 1.5;
+  --line-height-h1: 1.2;
+
+  /* HEADINGS */
+  --fs-h1: var(--fs-higher);
+  --fs-h2: var(--fs-semihigher);
+  --fs-h3: var(--fs-high);
+  --fs-h4: var(--fs-verymedium);
+  --fs-p: var(--fs-semihigh);
+  --fs-h1-sd: var(--fs-higher-sd);
+  --fs-h2-sd: var(--fs-semihigher-sd);
+  --fs-p-sd: var(--fs-semihigh-sd);
+  --fs-h1-t: var(--fs-higher-t);
+  --fs-h2-t: var(--fs-semihigher-sd);
+  --fs-p-t: var(--fs-semihigh-t);
+  --fs-h1-m: var(--fs-higher-m);
+  --fs-h2-m: var(--fs-semihigher-t);
+  --fs-p-m: var(--fs-semihigh-m);
+
+  /* COMPONENTES */
+
+  /* Button */
+  --fs-button: var(--fs-medium);
+
+  /* NavHeader */
+  --fs-navHeader: var(--fs-medium);
+  --fw-navHeader: var(--regular);
+
+  /* NavBurguer */
+  --fs-navBurguer: var(--fs-high);
+
+  /* Hero */
+  --fs-text: var(--fs-semihigh);
+}

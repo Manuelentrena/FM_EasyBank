@@ -1,0 +1,32 @@
+.navBurguer {
+  width: 100%;
+  background: linear-gradient(
+    145deg,
+    var(--c-navBurguer-left) 0%,
+    var(--c-navBurguer-right) 100%
+  );
+}
+
+.navBurguer__list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navBurguer__item {
+  width: 100%;
+}
+
+.navBurguer__item:hover {
+  cursor: pointer;
+}
+
+.navBurguer__item:hover .navBurguer__link {
+  color: var(--c-navBurguer-text-hover);
+}
+
+.navBurguer__link {
+  width: 100%;
+  color: var(--c-navBurguer-text);
+  font-size: var(--fs-navBurguer);
+}

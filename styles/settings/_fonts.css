@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Public Sans Bold", sans-serif;
+  src: url(../../resources/fonts/PublicSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Public Sans Regular", sans-serif;
+  src: url(../../resources/fonts/PublicSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Public Sans Light", sans-serif;
+  src: url(../../resources/fonts/PublicSans-Light.ttf);
+}

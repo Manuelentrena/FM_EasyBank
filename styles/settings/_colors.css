@@ -1,0 +1,65 @@
+:root {
+  /* COLORS */
+
+  /* Primarios */
+  --Dark-Blue: #2d314d;
+  --Lime-Green: #31d35c;
+  --Bright-Cyan: #2bb7da;
+  --Lime-Green-light: #70e790;
+  --Bright-Cyan-light: #64d5f1;
+  /* Secundarios */
+  --Grayish-Blue: #6c6e83;
+  --Light-Grayish-Blue: #f3f4f6;
+  --Very-Light-Gray: #fafafa;
+  --White: #ffffff;
+
+  /* HEADINGS */
+
+  --c-h1: var(--Dark-Blue);
+  --c-h2: var(--Dark-Blue);
+  --c-h3: var(--Dark-Blue);
+  --c-h4: var(--Dark-Blue);
+  --c-p: var(--Grayish-Blue);
+
+  /* ---COMPONENTES--- */
+
+  /* Body backgroundColor */
+  --c-body: var(--Light-Grayish-Blue);
+  --c-hero: var(--Very-Light-Gray);
+
+  /* Header */
+  --c-header-bg: var(--White);
+
+  /* Button */
+  --c-button-left: var(--Lime-Green);
+  --c-button-right: var(--Bright-Cyan);
+  --c-button-left-hover: var(--Lime-Green-light);
+  --c-button-right-hover: var(--Bright-Cyan-light);
+  --c-button-text: var(--White);
+  --c-button-text-hover: var(--Very-Light-Gray);
+
+  /* NavHeader */
+  --c-navHeader-left: var(--Lime-Green);
+  --c-navHeader-right: var(--Bright-Cyan);
+  --c-navHeader-text-hover: var(--Dark-Blue);
+
+  /* NavBurguer */
+  --c-navBurguer-left: var(--Lime-Green);
+  --c-navBurguer-right: var(--Bright-Cyan);
+  --c-navBurguer-text: var(--White);
+  --c-navBurguer-text-hover: var(--Dark-Blue);
+
+  /* Hero */
+  --c-hero-bg: var(--Very-Light-Gray);
+
+  /* Card  and Articles*/
+  --c-bg-card: var(--White);
+  --c-bg-articles: var(--Very-Light-Gray);
+  --c-title-card-hover: var(--Lime-Green);
+
+  /* Footer */
+  --c-bg-footer: var(--Dark-Blue);
+  --c-menu-footer: var(--White);
+  --c-icon-hover: var(--Lime-Green);
+  --c-menu-footer-hover: var(--Lime-Green);
+}

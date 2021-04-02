@@ -1,0 +1,37 @@
+.\#item {
+  margin: 0 2rem;
+}
+
+.\#navHeader {
+  display: block;
+  height: 10rem;
+}
+
+.navHeader__list {
+  height: 10rem;
+}
+
+.navHeader__item {
+  height: 10rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .\#navHeader {
+    display: block;
+  }
+  .\#item {
+    margin: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .\#navHeader {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .\#navHeader {
+    display: none;
+  }
+}

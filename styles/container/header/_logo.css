@@ -1,0 +1,21 @@
+.\#logo {
+  width: 20rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .\#logo {
+    width: 15rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .\#logo {
+    width: 15rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .\#logo {
+    width: 15rem;
+  }
+}

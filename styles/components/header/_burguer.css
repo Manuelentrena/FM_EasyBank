@@ -1,0 +1,8 @@
+.burguer {
+  background-color: transparent;
+  border: none;
+}
+
+.burguer:hover {
+  cursor: pointer;
+}

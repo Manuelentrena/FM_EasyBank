@@ -1,0 +1,23 @@
+.button {
+  background: linear-gradient(
+    90deg,
+    var(--c-button-left) 0%,
+    var(--c-button-right) 100%
+  );
+  color: var(--c-button-text);
+  border: none;
+  min-width: fit-content;
+  width: fit-content;
+  border-radius: 3rem;
+  padding: 1.5rem 3rem;
+}
+
+.button:hover {
+  background: linear-gradient(
+    90deg,
+    var(--c-button-left-hover) 0%,
+    var(--c-button-right-hover) 100%
+  );
+  color: var(--c-button-text-hover);
+  cursor: pointer;
+}
