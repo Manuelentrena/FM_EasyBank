@@ -1,57 +1,57 @@
 /* Settings */
-@import "./settings/_typography.css";
-@import "./settings/_layout.css";
-@import "./settings/_colors.css";
-@import "./settings/_fonts.css";
+@import "../styles/settings/_typography.css";
+@import "../styles/settings/_layout.css";
+@import "../styles/settings/_colors.css";
+@import "../styles/settings/_fonts.css";
 
 /* Global */
-@import "./global/_box-sizing.css";
-@import "./global/_normalize.css";
+@import "../styles/global/_box-sizing.css";
+@import "../styles/global/_normalize.css";
 
 /* Theme */
-@import "./theme/_headings.css";
-@import "./theme/_body.css";
+@import "../styles/theme/_headings.css";
+@import "../styles/theme/_body.css";
 
 /* Layouts */
-@import "./layouts/_header.css";
-@import "./layouts/_container.css";
-@import "./layouts/_principal.css";
+@import "../styles/layouts/_header.css";
+@import "../styles/layouts/_container.css";
+@import "../styles/layouts/_principal.css";
 
 /* Container */
-@import "./container/header/_button.css";
-@import "./container/header/_logo.css";
-@import "./container/header/_navHeader.css";
-@import "./container/header/_burguer.css";
-@import "./container/header/_navBurguer.css";
+@import "../styles/container/header/_button.css";
+@import "../styles/container/header/_logo.css";
+@import "../styles/container/header/_navHeader.css";
+@import "../styles/container/header/_burguer.css";
+@import "../styles/container/header/_navBurguer.css";
 
-@import "./container/hero/_hero.css";
+@import "../styles/container/hero/_hero.css";
 
-@import "./container/choose/_choose.css";
-@import "./container/choose/_services.css";
+@import "../styles/container/choose/_choose.css";
+@import "../styles/container/choose/_services.css";
 
-@import "./container/articles/_articles.css";
-@import "./container/articles/_card.css";
+@import "../styles/container/articles/_articles.css";
+@import "../styles/container/articles/_card.css";
 
-@import "./container/footer/_footer.css";
+@import "../styles/container/footer/_footer.css";
 
 /* Components */
-@import "./components/header/_button.css";
-@import "./components/header/_navHeader.css";
-@import "./components/header/_logo.css";
-@import "./components/header/_burguer.css";
-@import "./components/header/_navBurguer.css";
+@import "../styles/components/header/_button.css";
+@import "../styles/components/header/_navHeader.css";
+@import "../styles/components/header/_logo.css";
+@import "../styles/components/header/_burguer.css";
+@import "../styles/components/header/_navBurguer.css";
 
-@import "./components/hero/_hero.css";
+@import "../styles/components/hero/_hero.css";
 
-@import "./components/choose/_services.css";
+@import "../styles/components/choose/_services.css";
 
-@import "./components/articles/_articles.css";
-@import "./components/articles/_card.css";
+@import "../styles/components/articles/_articles.css";
+@import "../styles/components/articles/_card.css";
 
-@import "./components/footer/_footer.css";
+@import "../styles/components/footer/_footer.css";
 
 /* utils */
-@import "./utils/_center.css";
-@import "./utils/_changeIconMenu.css";
-@import "./utils/_none.css";
-@import "./utils/_hidden.css";
+@import "../styles/utils/_center.css";
+@import "../styles/utils/_changeIconMenu.css";
+@import "../styles/utils/_none.css";
+@import "../styles/utils/_hidden.css";
